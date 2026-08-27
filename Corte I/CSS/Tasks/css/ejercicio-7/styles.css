@@ -1,0 +1,17 @@
+.galeria {
+    display: grid;                          /* convierte al contenedor en un grid container */
+    grid-template-columns: repeat(3, 1fr);  /* 3 columnas de igual ancho (1fr = 1 fracción del espacio) */
+    gap: 16px;                              /* separación entre filas y columnas */
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.producto {
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
