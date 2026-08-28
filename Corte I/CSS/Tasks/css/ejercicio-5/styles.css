@@ -1,0 +1,31 @@
+.caja {
+    width: 150px;
+    height: 40px;
+    background-color: #9b59b6;
+    color: white;
+    margin: 4px;
+    padding: 6px;
+    text-align: center;
+}
+
+/* block: cada uno cae en su propia línea, ocupando el ancho definido */
+.bloque {
+    display: block;
+}
+
+/* inline: se acomodan uno al lado del otro; width/height son ignorados por el navegador */
+.linea {
+    display: inline;
+    background-color: #16a085;
+}
+
+/* inline-block: se acomodan en línea PERO respeta width y height */
+.linea-bloque {
+    display: inline-block;
+    background-color: #2980b9;
+}
+
+/* none: el elemento no se renderiza ni ocupa espacio en el layout */
+.oculto {
+    display: none;
+}

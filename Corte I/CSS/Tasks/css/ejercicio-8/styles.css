@@ -1,0 +1,34 @@
+/* Estilos base: pensados primero para pantallas de escritorio */
+.contenedor {
+    width: 800px;         /* ancho fijo para escritorio */
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.encabezado {
+    background-color: #34495e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenido {
+    padding: 20px;
+    background-color: #ecf0f1;
+}
+
+/*
+  MEDIA QUERY: este bloque de estilos SOLO se aplica cuando el ancho
+  de la pantalla es de 768px o menos (tablets y celulares).
+  Aquí "sobreescribimos" el width fijo por uno flexible.
+*/
+@media (max-width: 768px) {
+    .contenedor {
+        width: 100%;      /* en vez de 800px fijos, ocupa todo el ancho disponible */
+        padding: 0 10px;
+    }
+
+    .encabezado h1 {
+        font-size: 1.4rem; /* letra más pequeña para que quepa mejor */
+    }
+}

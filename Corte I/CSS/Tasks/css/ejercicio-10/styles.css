@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu a {
+    margin-right: 12px;
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+/* :hover -> se activa mientras el cursor está encima del elemento */
+.menu a:hover {
+    color: white;
+    background-color: #2980b9;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.formulario input {
+    display: block;
+    margin: 8px 0 16px 0;
+    padding: 6px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+}
+
+/* :focus -> se activa mientras el campo está seleccionado (el usuario está escribiendo ahí) */
+.formulario input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 4px rgba(52, 152, 219, 0.6);
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+    width: 200px;
+}
+
+.lista li {
+    padding: 8px;
+}
+
+/* :first-child -> selecciona el elemento SOLO si es el primer hijo de su contenedor */
+.lista li:first-child {
+    font-weight: bold;
+    background-color: #f1c40f;
+}
+
+/* :nth-child(2n) -> selecciona los elementos en posición par (2, 4, 6...) para un efecto "cebra" */
+.lista li:nth-child(2n) {
+    background-color: #ecf0f1;
+}

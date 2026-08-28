@@ -1,0 +1,26 @@
+/* font-family: define la fuente. La lista es un "orden de preferencia":
+   si Georgia no está disponible, usa la siguiente, y así sucesivamente */
+.titulo {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 2.2rem;       /* font-size: tamaño del texto */
+    font-weight: 800;        /* font-weight: grosor de la fuente (bold = ~700) */
+    text-align: center;      /* text-align: alineación horizontal del texto */
+    text-transform: uppercase; /* text-transform: transforma el texto (mayúsculas) */
+}
+
+.subtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+    text-align: center;
+    color: #555;
+    font-style: italic;
+}
+
+.cuerpo {
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;     /* justify: estira el texto para ocupar todo el ancho */
+    line-height: 1.6;
+}
