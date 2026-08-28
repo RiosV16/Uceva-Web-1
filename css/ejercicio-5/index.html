@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5 - Display</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Propiedad display</h1>
+
+    <h2>display: block</h2>
+    <div class="caja bloque">Div 1 (block)</div>
+    <div class="caja bloque">Div 2 (block)</div>
+    <div class="caja bloque">Div 3 (block)</div>
+
+    <h2>display: inline</h2>
+    <span class="caja linea">Span 1 (inline)</span>
+    <span class="caja linea">Span 2 (inline)</span>
+    <span class="caja linea">Span 3 (inline)</span>
+
+    <h2>display: inline-block</h2>
+    <span class="caja linea-bloque">Span A (inline-block)</span>
+    <span class="caja linea-bloque">Span B (inline-block)</span>
+    <span class="caja linea-bloque">Span C (inline-block)</span>
+
+    <h2>display: none</h2>
+    <div class="caja oculto">Este div está oculto y no ocupa espacio</div>
+    <p>El div de arriba tiene display: none, por eso no se ve ni deja espacio vacío.</p>
+
+    <hr>
+
+    <section>
+        <h2>Diferencias observadas</h2>
+        <ul>
+            <li><strong>block:</strong> ocupa todo el ancho disponible y siempre empieza en una nueva línea. Sí respeta width y height.</li>
+            <li><strong>inline:</strong> solo ocupa el espacio de su contenido, se acomoda en la misma línea que otros elementos. NO respeta width ni height.</li>
+            <li><strong>inline-block:</strong> se acomoda en la misma línea como inline, pero SÍ respeta width, height, margin y padding, como block.</li>
+            <li><strong>none:</strong> el elemento desaparece completamente de la página, como si no existiera (no ocupa espacio).</li>
+        </ul>
+    </section>
+
+</body>
+</html>

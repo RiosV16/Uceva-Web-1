@@ -1,0 +1,29 @@
+/* Fondo de toda la página (body) */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Estilo compartido por las tres cajas: ancho, alto y color de texto */
+.caja {
+    width: 150px;
+    height: 100px;
+    color: white;           /* color afecta el TEXTO dentro del elemento */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Cada caja tiene su propio background-color (color de fondo del elemento) */
+.caja-1 {
+    background-color: #e74c3c; /* rojo */
+}
+
+.caja-2 {
+    background-color: #3498db; /* azul */
+}
+
+.caja-3 {
+    background-color: #2ecc71; /* verde */
+}
